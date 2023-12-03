@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.change-text {
+    font-size: 64px;
+}
+
+ @media (min-width: 600px) and (max-width: 1340px) {
+    .change-text {
+      font-size: 48px;
+      color: red;
+    }
+  } 
+
+  /*--------------------------*/
+
+  /* уменьшить текст до 24px */
+/* от 769 до 1199 */
+
+ @media (min-width: 769px) and (max-width: 1199px) {
+    .change-text {
+      font-size: 24px;
+      color: blue;
+    }
+  } 
+
+/*--------------------------*/
+
+  /* до 768  */
+/* font-size: 20px */
+/* color: green */
+  
+  @media (max-width: 768px) {
+    .change-text {
+      font-size: 20px;
+      color: green;
+    }
+  }
+
+  /*--------------------------*/
+
+  a {
+    color: #000;
+  }
+
+  a:hover {
+    color: #ada7ff;
+  }
+
+  button {
+    border: none;
+    background-color: #ada7ff;
+  }
+
+  header {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    gap: 25px;
+  }
+
+  #burger-menu {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    #burger-menu {
+        display: block;
+    }
+    header > nav,
+    header > button {
+        display: none;
+    }
+    /* изменить высоту лого */
+
+    #logo {
+        height: 25px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+  }
+
+  

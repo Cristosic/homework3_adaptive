@@ -1,0 +1,22 @@
+p {
+    display: inline;
+}
+
+img {
+    width: 100px;
+}
+
+#before-span {
+    color: red;
+}
+
+.lorem-paragraph {
+    background-color: wheat;
+
+}
+
+#google-link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
